@@ -1,0 +1,215 @@
+#header{
+	color: #fff;
+	background: #ff3333;
+}
+.section
+{
+	padding: 60px;
+	padding-bottom: 60px;
+}
+.section h2.section-head{
+	text-align: center;
+	color: #000;
+	margin-bottom: 40px;
+}
+.section h2.section-head:after{
+	background: #ff3333;
+	content: "";
+	display: block;
+	height: 3px;
+	width: 100px;
+	margin: 20px auto;
+
+}
+#logo
+{
+	font-size: 2rem;
+	margin-top: 5px;
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+}
+#banner
+{
+	background: url("First.jpg") no-repeat 0 0; 
+	background-size: cover;
+}
+.banner-title{
+	padding: 5rem;
+}
+.banner-title h1
+{
+	background: rgba(255,255,255,0.8);
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+}
+.banner-title p.lead
+{
+	color: #fff;
+	background: rgba(231, 76, 60, 0.7);
+	padding: 10px;
+}
+.service-box
+{
+	text-align: center;
+}
+.service-box i.fa
+{
+	color: #ff3333;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+#testimonials{
+	color: #fff;
+	background: url(five.jpg)no-repeat 0 0;
+	background-size: cover;
+	padding: 50px 0;
+	position: relative;
+}
+.testimonials img{
+	width: 90px;
+	height: 70px;
+	
+}
+#testimonials:Befor{
+	background: rgba(150, 183, 233 0.8);
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+}
+.news-post img
+{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+.news-post h3{
+	font-size: 1.20rem;
+
+}
+.news-post a{
+	color: #ff3333;
+}
+.font-date{
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+.post-date:Before{
+	content: "\f272";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+a.readmore
+{
+	color: #ff3333;
+	font-size: 14px;
+}
+a.readmore:after{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-left: 5px;
+}
+#footer-sidebar{ 
+	color: #fff;
+	background: #595959;
+	padding: 20px 0;
+}
+.footer-weidgt h4:after{
+	content: "";
+	background: #fff;
+	display: block;;
+	width: 50px;
+	height: 2px;
+	margin: 5px 0;
+}
+.footer-weidgt a{
+	color: #fff;
+}
+.letest-news{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.letest-news li{
+	margin-bottom: 5px;
+}
+.letest-news li:Before{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+#footer{
+	color: #fff;
+	background: #666;
+	padding: 10px 0;
+}
+#social-icons
+{
+	list-style: none;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+#social-icons li{
+	display: inline-block;
+	padding-left: 5px;
+}
+#social-icons li a{
+	color: #fff;
+	font-size: 23px;
+}
+@media (max-width: 992){
+	
+	.news-post{
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 768px){
+	#logo{
+		text-align: center;
+		margin-top: 10xp 0;
+	}
+	.banner-title h1{
+		font-size: 1.5rem;
+	}
+	.banner-title{
+	padding: 0;
+}
+	.section
+{
+	padding: 30px;
+	padding-bottom: px;
+}
+	#menu{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.service-box{
+		margin-bottom: 30px;
+	}
+	.testimonials{
+		text-align: center;
+	}
+	.footer-widget{
+		margin-bottom: 20px;
+	}
+	#footer{
+		text-align: center;
+	}
+	#social-icons{
+		margin-top: 10px;
+	}
+}
